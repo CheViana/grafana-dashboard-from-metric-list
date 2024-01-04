@@ -41,14 +41,14 @@ Set optional env vars:
 DASH_TEMPLATE_FILE="dash.txt"
 ```
 
-File with template of dashboard (__title__, __metrics_list__, __uid__, __metrics_list__ placeholders).
+File with template of dashboard (`__title__, __metrics_list__, __uid__, __metrics_list__` placeholders).
 Default dash-template-json.txt.
 
 ```
 METRIC_TEMPLATE_FILE="metric.txt"
 ```
 
-File with template of panel (time series), __metric__, __job_name__, __datasource__ placeholders.
+File with template of panel (time series), `__metric__, __job_name__, __datasource__` placeholders.
 Default metric-template-json.json.
 
 
