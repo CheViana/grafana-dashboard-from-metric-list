@@ -42,7 +42,7 @@ def generate_grafana_dashboard_json(metrics_file_path):
     )
     datasource = {
         "type": "prometheus",
-        "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"
+        "uid": "1111111-1111-1111-1111-111111111111"
     }
     if os.getenv("DATASOURCE"):
         datasource = json.loads(os.getenv("DATASOURCE"))
@@ -75,9 +75,10 @@ def generate_grafana_dashboard_json(metrics_file_path):
 if __name__ == "__main__":
     metrics_file_paths = os.getenv("METRICS_FILES", "job.txt").split(',')
     # metrics_file_paths = [
-    #     "kafka-broker-dispatcher-ht9sk.txt",
-    #     "kafka-broker-ingress.txt",
-    #     "kafka-sink-ingress.txt"
+    # #     "kafka-broker-dispatcher.txt",
+    # #     "kafka-broker-ingress.txt",
+    # #     "kafka-sink-ingress.txt"
+    #     "source-metrics-service.txt"
     # ]
     for metrics_file_path in metrics_file_paths:
         generate_grafana_dashboard_json(metrics_file_path)

@@ -23,7 +23,7 @@ will generate dashboard json `dashboard-kafka-broker-ingress.json` (in same dire
 ### Set env vars:
 
 ```
-DATASOURCE='{"type": "prometheus","uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"}'
+DATASOURCE='{"type": "prometheus","uid": "1111111-1111-1111-1111-111111111111"}'
 ```
 
 DATASOURCE is json of datasource to use in dashboards.

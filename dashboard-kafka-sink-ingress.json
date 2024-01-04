@@ -3,7 +3,7 @@
     "list": [
       {
         "builtIn": 1,
-        "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+        "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
         "enable": true,
         "hide": true,
         "iconColor": "rgba(0, 211, 255, 1)",
@@ -20,7 +20,7 @@
   "liveNow": false,
   "panels": [
     {
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -95,7 +95,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "{job=\"kafka-sink-ingress\"}",
@@ -111,7 +111,7 @@
   "title": "",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -186,7 +186,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_outgoing_byte_rate{job=\"kafka-sink-ingress\"}",
@@ -202,7 +202,7 @@
   "title": "kafka_producer_node_outgoing_byte_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -277,7 +277,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_response_total{job=\"kafka-sink-ingress\"}",
@@ -293,7 +293,7 @@
   "title": "kafka_producer_response_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -368,7 +368,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_metadata_age{job=\"kafka-sink-ingress\"}",
@@ -384,7 +384,7 @@
   "title": "kafka_producer_metadata_age",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -459,7 +459,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_produce_throttle_time_max{job=\"kafka-sink-ingress\"}",
@@ -475,7 +475,7 @@
   "title": "kafka_producer_produce_throttle_time_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -550,7 +550,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_request_size_max{job=\"kafka-sink-ingress\"}",
@@ -566,7 +566,7 @@
   "title": "kafka_producer_request_size_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -641,7 +641,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_request_size_max{job=\"kafka-sink-ingress\"}",
@@ -657,7 +657,7 @@
   "title": "kafka_producer_node_request_size_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -732,7 +732,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_queue_time_max{job=\"kafka-sink-ingress\"}",
@@ -748,7 +748,7 @@
   "title": "kafka_producer_record_queue_time_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -823,7 +823,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_io_time_ns_avg{job=\"kafka-sink-ingress\"}",
@@ -839,7 +839,7 @@
   "title": "kafka_producer_io_time_ns_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -914,7 +914,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_queue_time_avg{job=\"kafka-sink-ingress\"}",
@@ -930,7 +930,7 @@
   "title": "kafka_producer_record_queue_time_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1005,7 +1005,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_request_total{job=\"kafka-sink-ingress\"}",
@@ -1021,7 +1021,7 @@
   "title": "kafka_producer_request_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1096,7 +1096,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_outgoing_byte_rate{job=\"kafka-sink-ingress\"}",
@@ -1112,7 +1112,7 @@
   "title": "kafka_producer_outgoing_byte_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1187,7 +1187,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_request_rate{job=\"kafka-sink-ingress\"}",
@@ -1203,7 +1203,7 @@
   "title": "kafka_producer_node_request_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1278,7 +1278,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_error_total{job=\"kafka-sink-ingress\"}",
@@ -1294,7 +1294,7 @@
   "title": "kafka_producer_record_error_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1369,7 +1369,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_connection_count{job=\"kafka-sink-ingress\"}",
@@ -1385,7 +1385,7 @@
   "title": "kafka_producer_connection_count",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1460,7 +1460,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_request_latency_max{job=\"kafka-sink-ingress\"}",
@@ -1476,7 +1476,7 @@
   "title": "kafka_producer_request_latency_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1551,7 +1551,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_waiting_threads{job=\"kafka-sink-ingress\"}",
@@ -1567,7 +1567,7 @@
   "title": "kafka_producer_waiting_threads",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1642,7 +1642,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_successful_reauthentication_total{job=\"kafka-sink-ingress\"}",
@@ -1658,7 +1658,7 @@
   "title": "kafka_producer_successful_reauthentication_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1733,7 +1733,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_connection_creation_total{job=\"kafka-sink-ingress\"}",
@@ -1749,7 +1749,7 @@
   "title": "kafka_producer_connection_creation_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1824,7 +1824,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_response_total{job=\"kafka-sink-ingress\"}",
@@ -1840,7 +1840,7 @@
   "title": "kafka_producer_node_response_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -1915,7 +1915,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_incoming_byte_total{job=\"kafka-sink-ingress\"}",
@@ -1931,7 +1931,7 @@
   "title": "kafka_producer_incoming_byte_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2006,7 +2006,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_successful_authentication_rate{job=\"kafka-sink-ingress\"}",
@@ -2022,7 +2022,7 @@
   "title": "kafka_producer_successful_authentication_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2097,7 +2097,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_successful_authentication_total{job=\"kafka-sink-ingress\"}",
@@ -2113,7 +2113,7 @@
   "title": "kafka_producer_successful_authentication_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2188,7 +2188,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_batch_split_total{job=\"kafka-sink-ingress\"}",
@@ -2204,7 +2204,7 @@
   "title": "kafka_producer_batch_split_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2279,7 +2279,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_incoming_byte_total{job=\"kafka-sink-ingress\"}",
@@ -2295,7 +2295,7 @@
   "title": "kafka_producer_node_incoming_byte_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2370,7 +2370,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_size_max{job=\"kafka-sink-ingress\"}",
@@ -2386,7 +2386,7 @@
   "title": "kafka_producer_record_size_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2461,7 +2461,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_send_rate{job=\"kafka-sink-ingress\"}",
@@ -2477,7 +2477,7 @@
   "title": "kafka_producer_record_send_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2552,7 +2552,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_connection_close_totalkafka_producer_response_total{job=\"kafka-sink-ingress\"}",
@@ -2568,7 +2568,7 @@
   "title": "kafka_producer_connection_close_totalkafka_producer_response_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2643,7 +2643,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_incoming_byte_rate{job=\"kafka-sink-ingress\"}",
@@ -2659,7 +2659,7 @@
   "title": "kafka_producer_node_incoming_byte_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2734,7 +2734,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_txn_begin_time_ns_total{job=\"kafka-sink-ingress\"}",
@@ -2750,7 +2750,7 @@
   "title": "kafka_producer_txn_begin_time_ns_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2825,7 +2825,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_buffer_exhausted_total{job=\"kafka-sink-ingress\"}",
@@ -2841,7 +2841,7 @@
   "title": "kafka_producer_buffer_exhausted_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -2916,7 +2916,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_failed_reauthentication_total{job=\"kafka-sink-ingress\"}",
@@ -2932,7 +2932,7 @@
   "title": "kafka_producer_failed_reauthentication_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3007,7 +3007,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_retry_total{job=\"kafka-sink-ingress\"}",
@@ -3023,7 +3023,7 @@
   "title": "kafka_producer_record_retry_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3098,7 +3098,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_txn_commit_time_ns_total{job=\"kafka-sink-ingress\"}",
@@ -3114,7 +3114,7 @@
   "title": "kafka_producer_txn_commit_time_ns_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3189,7 +3189,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_produce_throttle_time_avg{job=\"kafka-sink-ingress\"}",
@@ -3205,7 +3205,7 @@
   "title": "kafka_producer_produce_throttle_time_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3280,7 +3280,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_io_wait_time_ns_avg{job=\"kafka-sink-ingress\"}",
@@ -3296,7 +3296,7 @@
   "title": "kafka_producer_io_wait_time_ns_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3371,7 +3371,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_records_per_request_avg{job=\"kafka-sink-ingress\"}",
@@ -3387,7 +3387,7 @@
   "title": "kafka_producer_records_per_request_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3462,7 +3462,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_batch_split_rate{job=\"kafka-sink-ingress\"}",
@@ -3478,7 +3478,7 @@
   "title": "kafka_producer_batch_split_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3553,7 +3553,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_bufferpool_wait_time_ns_total{job=\"kafka-sink-ingress\"}",
@@ -3569,7 +3569,7 @@
   "title": "kafka_producer_bufferpool_wait_time_ns_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3644,7 +3644,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_request_latency_max{job=\"kafka-sink-ingress\"}",
@@ -3660,7 +3660,7 @@
   "title": "kafka_producer_node_request_latency_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3735,7 +3735,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_failed_authentication_total{job=\"kafka-sink-ingress\"}",
@@ -3751,7 +3751,7 @@
   "title": "kafka_producer_failed_authentication_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3826,7 +3826,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_topic_record_retry_rate{job=\"kafka-sink-ingress\"}",
@@ -3842,7 +3842,7 @@
   "title": "kafka_producer_topic_record_retry_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -3917,7 +3917,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_io_wait_time_ns_total{job=\"kafka-sink-ingress\"}",
@@ -3933,7 +3933,7 @@
   "title": "kafka_producer_io_wait_time_ns_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4008,7 +4008,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_response_rate{job=\"kafka-sink-ingress\"}",
@@ -4024,7 +4024,7 @@
   "title": "kafka_producer_node_response_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4099,7 +4099,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_topic_byte_rate{job=\"kafka-sink-ingress\"}",
@@ -4115,7 +4115,7 @@
   "title": "kafka_producer_topic_byte_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4190,7 +4190,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_outgoing_byte_total{job=\"kafka-sink-ingress\"}",
@@ -4206,7 +4206,7 @@
   "title": "kafka_producer_node_outgoing_byte_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4281,7 +4281,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_topic_record_send_rate{job=\"kafka-sink-ingress\"}",
@@ -4297,7 +4297,7 @@
   "title": "kafka_producer_topic_record_send_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4372,7 +4372,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_io_ratio{job=\"kafka-sink-ingress\"}",
@@ -4388,7 +4388,7 @@
   "title": "kafka_producer_io_ratio",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4463,7 +4463,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_request_latency_avg{job=\"kafka-sink-ingress\"}",
@@ -4479,7 +4479,7 @@
   "title": "kafka_producer_request_latency_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4554,7 +4554,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_network_io_rate{job=\"kafka-sink-ingress\"}",
@@ -4570,7 +4570,7 @@
   "title": "kafka_producer_network_io_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4645,7 +4645,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_compression_rate_avg{job=\"kafka-sink-ingress\"}",
@@ -4661,7 +4661,7 @@
   "title": "kafka_producer_compression_rate_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4736,7 +4736,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_app_info_start_time_ms{job=\"kafka-sink-ingress\"}",
@@ -4752,7 +4752,7 @@
   "title": "kafka_app_info_start_time_ms",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4827,7 +4827,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_batch_size_max{job=\"kafka-sink-ingress\"}",
@@ -4843,7 +4843,7 @@
   "title": "kafka_producer_batch_size_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -4918,7 +4918,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_successful_reauthentication_rate{job=\"kafka-sink-ingress\"}",
@@ -4934,7 +4934,7 @@
   "title": "kafka_producer_successful_reauthentication_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5009,7 +5009,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_request_rate{job=\"kafka-sink-ingress\"}",
@@ -5025,7 +5025,7 @@
   "title": "kafka_producer_request_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5100,7 +5100,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_request_size_avg{job=\"kafka-sink-ingress\"}",
@@ -5116,7 +5116,7 @@
   "title": "kafka_producer_request_size_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5191,7 +5191,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_request_latency_avg{job=\"kafka-sink-ingress\"}",
@@ -5207,7 +5207,7 @@
   "title": "kafka_producer_node_request_latency_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5282,7 +5282,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_topic_record_error_total{job=\"kafka-sink-ingress\"}",
@@ -5298,7 +5298,7 @@
   "title": "kafka_producer_topic_record_error_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5373,7 +5373,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_network_io_total{job=\"kafka-sink-ingress\"}",
@@ -5389,7 +5389,7 @@
   "title": "kafka_producer_network_io_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5464,7 +5464,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_successful_authentication_no_reauth_total{job=\"kafka-sink-ingress\"}",
@@ -5480,7 +5480,7 @@
   "title": "kafka_producer_successful_authentication_no_reauth_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5555,7 +5555,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_topic_record_error_rate{job=\"kafka-sink-ingress\"}",
@@ -5571,7 +5571,7 @@
   "title": "kafka_producer_topic_record_error_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5646,7 +5646,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_error_rate{job=\"kafka-sink-ingress\"}",
@@ -5662,7 +5662,7 @@
   "title": "kafka_producer_record_error_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5737,7 +5737,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_failed_reauthentication_rate{job=\"kafka-sink-ingress\"}",
@@ -5753,7 +5753,7 @@
   "title": "kafka_producer_failed_reauthentication_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5828,7 +5828,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_batch_size_avg{job=\"kafka-sink-ingress\"}",
@@ -5844,7 +5844,7 @@
   "title": "kafka_producer_batch_size_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -5919,7 +5919,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_select_rate{job=\"kafka-sink-ingress\"}",
@@ -5935,7 +5935,7 @@
   "title": "kafka_producer_select_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6010,7 +6010,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "event_dispatch_latencies_ms_count{job=\"kafka-sink-ingress\"}",
@@ -6026,7 +6026,7 @@
   "title": "event_dispatch_latencies_ms_count",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6101,7 +6101,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_size_avg{job=\"kafka-sink-ingress\"}",
@@ -6117,7 +6117,7 @@
   "title": "kafka_producer_record_size_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6192,7 +6192,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_failed_authentication_rate{job=\"kafka-sink-ingress\"}",
@@ -6208,7 +6208,7 @@
   "title": "kafka_producer_failed_authentication_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6283,7 +6283,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_io_time_ns_total{job=\"kafka-sink-ingress\"}",
@@ -6299,7 +6299,7 @@
   "title": "kafka_producer_io_time_ns_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6374,7 +6374,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_buffer_total_bytes{job=\"kafka-sink-ingress\"}",
@@ -6390,7 +6390,7 @@
   "title": "kafka_producer_buffer_total_bytes",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6465,7 +6465,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_request_size_avg{job=\"kafka-sink-ingress\"}",
@@ -6481,7 +6481,7 @@
   "title": "kafka_producer_node_request_size_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6556,7 +6556,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_bufferpool_wait_ratio{job=\"kafka-sink-ingress\"}",
@@ -6572,7 +6572,7 @@
   "title": "kafka_producer_bufferpool_wait_ratio",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6647,7 +6647,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_topic_byte_total{job=\"kafka-sink-ingress\"}",
@@ -6663,7 +6663,7 @@
   "title": "kafka_producer_topic_byte_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6738,7 +6738,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_txn_send_offsets_time_ns_total{job=\"kafka-sink-ingress\"}",
@@ -6754,7 +6754,7 @@
   "title": "kafka_producer_txn_send_offsets_time_ns_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6829,7 +6829,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_response_rate{job=\"kafka-sink-ingress\"}",
@@ -6845,7 +6845,7 @@
   "title": "kafka_producer_response_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -6920,7 +6920,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_select_total{job=\"kafka-sink-ingress\"}",
@@ -6936,7 +6936,7 @@
   "title": "kafka_producer_select_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7011,7 +7011,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_io_wait_ratio{job=\"kafka-sink-ingress\"}",
@@ -7027,7 +7027,7 @@
   "title": "kafka_producer_io_wait_ratio",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7102,7 +7102,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_iotime_total{job=\"kafka-sink-ingress\"}",
@@ -7118,7 +7118,7 @@
   "title": "kafka_producer_iotime_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7193,7 +7193,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_reauthentication_latency_avg{job=\"kafka-sink-ingress\"}",
@@ -7209,7 +7209,7 @@
   "title": "kafka_producer_reauthentication_latency_avg",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7284,7 +7284,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_buffer_available_bytes{job=\"kafka-sink-ingress\"}",
@@ -7300,7 +7300,7 @@
   "title": "kafka_producer_buffer_available_bytes",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7375,7 +7375,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_connection_close_total{job=\"kafka-sink-ingress\"}",
@@ -7391,7 +7391,7 @@
   "title": "kafka_producer_connection_close_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7466,7 +7466,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "event_dispatch_latencies_ms_bucket{job=\"kafka-sink-ingress\"}",
@@ -7482,7 +7482,7 @@
   "title": "event_dispatch_latencies_ms_bucket",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7557,7 +7557,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_topic_record_retry_total{job=\"kafka-sink-ingress\"}",
@@ -7573,7 +7573,7 @@
   "title": "kafka_producer_topic_record_retry_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7648,7 +7648,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_buffer_exhausted_rate{job=\"kafka-sink-ingress\"}",
@@ -7664,7 +7664,7 @@
   "title": "kafka_producer_buffer_exhausted_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7739,7 +7739,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_retry_rate{job=\"kafka-sink-ingress\"}",
@@ -7755,7 +7755,7 @@
   "title": "kafka_producer_record_retry_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7830,7 +7830,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_reauthentication_latency_max{job=\"kafka-sink-ingress\"}",
@@ -7846,7 +7846,7 @@
   "title": "kafka_producer_reauthentication_latency_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -7921,7 +7921,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_bufferpool_wait_time_total{job=\"kafka-sink-ingress\"}",
@@ -7937,7 +7937,7 @@
   "title": "kafka_producer_bufferpool_wait_time_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8012,7 +8012,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_txn_abort_time_ns_total{job=\"kafka-sink-ingress\"}",
@@ -8028,7 +8028,7 @@
   "title": "kafka_producer_txn_abort_time_ns_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8103,7 +8103,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_connection_close_rate{job=\"kafka-sink-ingress\"}",
@@ -8119,7 +8119,7 @@
   "title": "kafka_producer_connection_close_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8194,7 +8194,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_incoming_byte_rate{job=\"kafka-sink-ingress\"}",
@@ -8210,7 +8210,7 @@
   "title": "kafka_producer_incoming_byte_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8285,7 +8285,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_txn_init_time_ns_total{job=\"kafka-sink-ingress\"}",
@@ -8301,7 +8301,7 @@
   "title": "kafka_producer_txn_init_time_ns_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8376,7 +8376,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_topic_record_send_total{job=\"kafka-sink-ingress\"}",
@@ -8392,7 +8392,7 @@
   "title": "kafka_producer_topic_record_send_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8467,7 +8467,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_requests_in_flight{job=\"kafka-sink-ingress\"}",
@@ -8483,7 +8483,7 @@
   "title": "kafka_producer_requests_in_flight",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8558,7 +8558,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_record_send_total{job=\"kafka-sink-ingress\"}",
@@ -8574,7 +8574,7 @@
   "title": "kafka_producer_record_send_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8649,7 +8649,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "event_dispatch_latencies_ms_sum{job=\"kafka-sink-ingress\"}",
@@ -8665,7 +8665,7 @@
   "title": "event_dispatch_latencies_ms_sum",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8740,7 +8740,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_flush_time_ns_total{job=\"kafka-sink-ingress\"}",
@@ -8756,7 +8756,7 @@
   "title": "kafka_producer_flush_time_ns_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8831,7 +8831,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_connection_creation_rate{job=\"kafka-sink-ingress\"}",
@@ -8847,7 +8847,7 @@
   "title": "kafka_producer_connection_creation_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -8922,7 +8922,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "event_dispatch_latencies_ms_max{job=\"kafka-sink-ingress\"}",
@@ -8938,7 +8938,7 @@
   "title": "event_dispatch_latencies_ms_max",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -9013,7 +9013,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_node_request_total{job=\"kafka-sink-ingress\"}",
@@ -9029,7 +9029,7 @@
   "title": "kafka_producer_node_request_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -9104,7 +9104,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_topic_compression_rate{job=\"kafka-sink-ingress\"}",
@@ -9120,7 +9120,7 @@
   "title": "kafka_producer_topic_compression_rate",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -9195,7 +9195,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_io_waittime_total{job=\"kafka-sink-ingress\"}",
@@ -9211,7 +9211,7 @@
   "title": "kafka_producer_io_waittime_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -9286,7 +9286,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "kafka_producer_outgoing_byte_total{job=\"kafka-sink-ingress\"}",
@@ -9302,7 +9302,7 @@
   "title": "kafka_producer_outgoing_byte_total",
   "type": "timeseries"
 },{
-  "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+  "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
   "fieldConfig": {
     "defaults": {
       "color": {
@@ -9377,7 +9377,7 @@
   },
   "targets": [
     {
-      "datasource": {"type": "prometheus", "uid": "ac7c51a0-f501-4105-89f0-b42a9dbe21d0"},
+      "datasource": {"type": "prometheus", "uid": "1111111-1111-1111-1111-111111111111"},
       "disableTextWrap": false,
       "editorMode": "builder",
       "expr": "event_count_1_total{job=\"kafka-sink-ingress\"}",
